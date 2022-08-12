@@ -18,7 +18,7 @@ struct Datum: Codable {
     
     enum CodingKeys: String, CodingKey {
             case name = "name"
-            case data = "data"
+            case data = "data" 
 
         }
 }
